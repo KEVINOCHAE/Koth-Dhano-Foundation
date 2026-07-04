@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Rusken - Innovative solutions for a better future">
+  <meta name="description" content="Koth-Dhano - Innovative solutions for a better future">
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
   <!-- Open Graph (Facebook, LinkedIn, etc.) -->
-  <meta property="og:title" content="Rusken – Rusken Charitable Foundation" />
+  <meta property="og:title" content="Koth-Dhano – Koth Dhano Foundation" />
   <meta property="og:description" content="Empowering communities through sustainable programmes and cutting‑edge initiatives." />
   <meta property="og:image" content="{{ url_for('static', filename='images/Rusken-Charity-Foundation.png', _external=True) }}" />
   <meta property="og:url" content="{{ request.url }}" />
-  <meta property="og:site_name" content="Rusken" />
+  <meta property="og:site_name" content="Koth-Dhano" />
   <meta property="og:type" content="website" />
 
 <!-- Tailwind CDN -->
@@ -22,7 +22,7 @@
 <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
 
 
-  <title>{% block title %}Rusken | {% endblock %}</title>
+  <title>{% block title %}Koth-Dhano Foundation | {% endblock %}</title>
 
   <!-- Favicon & App Icons -->
   <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon/favicon-96x96.png') }}" sizes="96x96">
@@ -183,7 +183,7 @@
       
       <!-- About -->
       <div class="col">
-        <h5 class="text-white mb-3">About Rusken</h5>
+        <h5 class="text-white mb-3">About Koth Dhano</h5>
         <p class="opacity-75">
           Your trusted partner in empowering communities through innovative programmes and sustainable solutions.
         </p>
@@ -206,12 +206,12 @@
       <div class="col">
         <h5 class="text-white mb-3">Contact Us</h5>
         <ul class="list-unstyled footer-contact space-y-1">
-          <li><i class="fas fa-map-marker-alt me-2"></i>Muindi Mbingu Street, SixEighty Hotel Bldg, Office 630, Nairobi</li>
-          <li><i class="fas fa-phone-alt me-2"></i><a href="tel:+254202111101" class="text-white/80 hover:text-white">+254 202 111 101</a></li>
-          <li><i class="fas fa-home-alt me-2"></i><a href="tel:+254202111107" class="text-white/80 hover:text-white">+254 202 111 107</a></li>
-          <li><i class="fas fa-phone-alt me-2"></i><a href="tel:+254757734064" class="text-white/80 hover:text-white">+254 757 734 064</a></li>
-          <li><i class="fas fa-envelope me-2"></i><a href="mailto:info@ruskencf.org" class="text-white/80 hover:text-white">info@ruskencf.org</a></li>
-          <li><i class="fas fa-envelope me-2"></i><a href="mailto:ruskencf2024@gmail.com" class="text-white/80 hover:text-white">ruskencf2024@gmail.com</a></li>
+          <li><i class="fas fa-map-marker-alt me-2"></i>Muindi Mbingu Street, SixEighty Hotel Building Nairobi</li>
+          <li><i class="fas fa-phone-alt me-2"></i><a href="tel:+254202111101" class="text-white/80 hover:text-white">+254 723 919 684</a></li>
+          <li><i class="fas fa-home-alt me-2"></i><a href="tel:+254202111107" class="text-white/80 hover:text-white">+254 796 388 662</a></li>
+          <li><i class="fas fa-phone-alt me-2"></i><a href="tel:+254757734064" class="text-white/80 hover:text-white">+254 000 000 000</a></li>
+          <li><i class="fas fa-envelope me-2"></i><a href="mailto:info@ruskencf.org" class="text-white/80 hover:text-white">info@kothdhanofoundation.org</a></li>
+          <li><i class="fas fa-envelope me-2"></i><a href="mailto:ruskencf2024@gmail.com" class="text-white/80 hover:text-white">kothdhanofoundation@gmail.com</a></li>
         </ul>
       </div>
 
@@ -233,7 +233,7 @@
             
       <div class="row">
       <div class="col text-center small">
-        &copy; {{ current_year }} Ruskencf. All rights reserved.
+        &copy; {{ current_year }} Koth Dhano Foundation. All rights reserved.
  
         <a href="{{url_for('main.privacy_policy')}}">Privacy Policy</a> | 
         <a href="{{url_for('main.terms_of_service')}}">Terms of Service</a>
