@@ -84,8 +84,12 @@ def upload_program_image(program_id):
 
     return render_template('admin/upload_image.html', form=form, program=program)
 
-@admin_bp.route('/categories')
+@admin_bp.route('admin/categories')
 @login_required
+@roles_required
 def list_categories():
-    categories = Category.query.all()
+    categories = categories.query.all()
+    form = CategoryForm()
+
+    return redirect(url_for('program.list_categories'))
     return render_template('admin/list_categories.html', categories=categories)
