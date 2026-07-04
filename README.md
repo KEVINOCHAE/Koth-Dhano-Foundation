@@ -1,6 +1,6 @@
-# Rusken-Charitable-Foundation Website
+# Koth-Koth-Foundation Website
 
-This repository contains the source code for the Rusken Charitable Foundation web application.
+This repository contains the source code for the Koth Dhano Foundation web application.
 The system was developed using Python and uses PostgreSQL as the database.
 Project Structure
 
@@ -24,7 +24,7 @@ Installation
 1. Clone or extract the project
 
 git clone <repository-url>
-cd Rusken-Charitable-Foundation
+cd Koth-Dhano-Foundation
 Or extract the provided project archive.
 
 2. Create a virtual environment
