@@ -109,8 +109,8 @@ def change_password_fragment():
 @main_bp.route('/support-fragment')
 def support_fragment():
     support_data = {
-        "phone": "+254 757 734 064",
-        "email": "ruskencf2024@gmail.com",
+        "phone": "+254 723 919 684",
+        "email": "kothdhanofoundation@gmail.com",
         "hours": "9AM - 5PM EAT, Mon-Fri",
         "response_time": "Typically within 24 hours",
         "contact_page": url_for('main.contact')  
