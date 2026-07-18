@@ -13,7 +13,7 @@ class Config:
     SECRET_KEY                  = os.getenv('SECRET_KEY', 'super_secret_key')
 
     # Database configuration
-    SQLALCHEMY_DATABASE_URI     = os.getenv("DATABASE_URL", "sqlite:///rusken.db") #'postgresql://postgres:gAhMpttqCrXkJLoTGECVVKzWvTaPwRWi@postgres.railway.internal:5432/railway'
+    SQLALCHEMY_DATABASE_URI     = os.getenv("DATABASE_URL", "sqlite:///kothdhano.db") #'postgresql://postgres:mKiQYNtTZhNqVSSBQmrqQonZZrmKpflq@hayabusa.proxy.rlwy.net:33665/railway'
     SQLALCHEMY_TRACK_MODIFICATIONS = False  # Disable unnecessary overhead
 
 # Additional configurations (for future enhancements)
