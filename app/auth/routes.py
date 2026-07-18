@@ -72,14 +72,14 @@ def register():
 
         # Send welcome email
         send_email(
-            subject="Welcome to Rusken",
+            subject="Welcome to Koth Dhano Foundation",
             recipients=[user.email],
             template="emails/welcome.html",
             user=user,
-            site_name="Rusken Charity",
-            homepage_url="https://www.ruskencf2024.org/",
-            contact_url="https://www.ruskencf2024.org/contact",
-            logo_url="https://www.ruskencf2024.org/static/images/Rusken-Charity-Foundation.png",
+            site_name="Koth Dhano Foundation",
+            homepage_url="https://www.kothdhanofoundation.org/",
+            contact_url="https://www.kothdhanofoundation.org/contact",
+            logo_url="https://www.www.kothdhanofoundation.org/static/images/kothdhano-logo.jpeg",
             year=datetime.utcnow().year
         )
 
