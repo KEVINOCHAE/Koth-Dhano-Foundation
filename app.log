@@ -42788,3 +42788,171 @@ AssertionError: The message does not specify a sender and a default sender has n
 2026-11-08 16:02:06,043 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 2026-11-08 16:02:06,076 [INFO] - [33mPress CTRL+C to quit[0m
+2026-11-08 16:39:17,227 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-11-08 16:39:17,246 [INFO] - [33mPress CTRL+C to quit[0m
+2026-11-08 16:39:41,016 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:39:41] "GET / HTTP/1.1" 200 -
+2026-11-08 16:39:41,447 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:39:41] "GET /static/css/home.css HTTP/1.1" 200 -
+2026-11-08 16:39:41,450 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:39:41] "GET /static/css/styles.css HTTP/1.1" 200 -
+2026-11-08 16:39:42,830 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:39:42] "GET /static/css/page.css HTTP/1.1" 200 -
+2026-11-08 16:39:42,842 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:39:42] "GET /static/images/kothdhano-logo.jpeg HTTP/1.1" 200 -
+2026-11-08 16:39:42,854 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:39:42] "GET /static/images/lupeevent1.jpeg HTTP/1.1" 200 -
+2026-11-08 16:39:42,866 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:39:42] "GET /static/images/lupe.jpeg HTTP/1.1" 200 -
+2026-11-08 16:39:42,946 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:39:42] "GET /static/images/kedatracklogo.png HTTP/1.1" 200 -
+2026-11-08 16:39:43,637 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:39:43] "GET /static/js/home.js HTTP/1.1" 200 -
+2026-11-08 16:39:43,823 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:39:43] "GET /static/favicon/kothdhano-logo.jpeg HTTP/1.1" 200 -
+2026-11-08 16:39:44,053 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:39:44] "GET /static/js/donation.js HTTP/1.1" 200 -
+2026-11-08 16:39:44,816 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:39:44] "GET /categories HTTP/1.1" 200 -
+2026-11-08 16:39:45,638 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:39:45] "[36mGET /static/favicon/kothdhano-logo.jpeg HTTP/1.1[0m" 304 -
+2026-11-08 16:39:45,665 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:39:45] "[33mGET /static/favicon/kothdhano-logo HTTP/1.1[0m" 404 -
+2026-11-08 16:39:45,688 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:39:45] "[36mGET /static/favicon/kothdhano-logo.jpeg HTTP/1.1[0m" 304 -
+2026-11-08 16:39:45,779 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:39:45] "[36mGET /static/favicon/kothdhano-logo.jpeg HTTP/1.1[0m" 304 -
+2026-11-08 16:40:07,208 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:07] "GET /programs HTTP/1.1" 200 -
+2026-11-08 16:40:07,230 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:07] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2026-11-08 16:40:07,234 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-08 16:40:07,245 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:07] "[36mGET /static/images/kothdhano-logo.jpeg HTTP/1.1[0m" 304 -
+2026-11-08 16:40:07,253 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:07] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+2026-11-08 16:40:07,331 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:07] "[36mGET /static/js/donation.js HTTP/1.1[0m" 304 -
+2026-11-08 16:40:07,449 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:07] "[36mGET /static/favicon/kothdhano-logo.jpeg HTTP/1.1[0m" 304 -
+2026-11-08 16:40:07,805 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:07] "GET /categories HTTP/1.1" 200 -
+2026-11-08 16:40:08,041 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:08] "[36mGET /static/favicon/kothdhano-logo.jpeg HTTP/1.1[0m" 304 -
+2026-11-08 16:40:11,147 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:11] "GET /donate-details HTTP/1.1" 200 -
+2026-11-08 16:40:11,167 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:11] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2026-11-08 16:40:11,172 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-08 16:40:11,179 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:11] "[36mGET /static/images/kothdhano-logo.jpeg HTTP/1.1[0m" 304 -
+2026-11-08 16:40:11,213 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:11] "GET /static/images/lipa.webp HTTP/1.1" 200 -
+2026-11-08 16:40:11,241 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:11] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+2026-11-08 16:40:11,245 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:11] "[36mGET /static/js/donation.js HTTP/1.1[0m" 304 -
+2026-11-08 16:40:11,293 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:11] "GET /static/images/kcb.svg HTTP/1.1" 200 -
+2026-11-08 16:40:11,395 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:11] "[36mGET /static/favicon/kothdhano-logo.jpeg HTTP/1.1[0m" 304 -
+2026-11-08 16:40:11,784 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:11] "GET /categories HTTP/1.1" 200 -
+2026-11-08 16:40:15,124 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:15] "[36mGET /static/favicon/kothdhano-logo.jpeg HTTP/1.1[0m" 304 -
+2026-11-08 16:40:26,812 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:26] "GET /contact HTTP/1.1" 200 -
+2026-11-08 16:40:26,829 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:26] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2026-11-08 16:40:26,833 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-08 16:40:26,834 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:26] "[36mGET /static/images/kothdhano-logo.jpeg HTTP/1.1[0m" 304 -
+2026-11-08 16:40:26,912 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:26] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+2026-11-08 16:40:26,917 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:26] "[36mGET /static/js/donation.js HTTP/1.1[0m" 304 -
+2026-11-08 16:40:26,927 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:26] "GET /static/css/contact.css HTTP/1.1" 200 -
+2026-11-08 16:40:27,092 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:27] "[36mGET /static/favicon/kothdhano-logo.jpeg HTTP/1.1[0m" 304 -
+2026-11-08 16:40:28,166 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:28] "GET /static/images/eq1.jpg HTTP/1.1" 200 -
+2026-11-08 16:40:28,280 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:28] "GET /categories HTTP/1.1" 200 -
+2026-11-08 16:40:31,762 [INFO] - 127.0.0.1 - - [08/Nov/2026 16:40:31] "[36mGET /static/favicon/kothdhano-logo.jpeg HTTP/1.1[0m" 304 -
+2026-11-08 17:26:03,631 [ERROR] - Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: programs
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\app\main\routes.py", line 44, in home
+    .all()
+     ~~~^^
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\sqlalchemy\orm\query.py", line 2673, in all
+    return self._iter().all()  # type: ignore
+           ~~~~~~~~~~^^
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\sqlalchemy\orm\query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\Hp\Desktop\SOFTWARE SYSTEMS\Koth-Dhano-Foundation\kothdhano\Lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: programs
+[SQL: SELECT programs.id AS programs_id, programs.title AS programs_title, programs.slug AS programs_slug, programs.category_id AS programs_category_id, programs.description AS programs_description, programs.story AS programs_story, programs.cover_image AS programs_cover_image, programs.annual_budget AS programs_annual_budget, programs.created_at AS programs_created_at, programs.author_id AS programs_author_id 
+FROM programs ORDER BY programs.created_at DESC
+ LIMIT ? OFFSET ?]
+[parameters: (6, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)

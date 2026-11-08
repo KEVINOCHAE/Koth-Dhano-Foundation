@@ -76,6 +76,15 @@ VPS with Gunicorn + Nginx
 For production deployments, configure the WSGI entry point:
 wsgi.py
 
+On Railway, provide a PostgreSQL service and set `DATABASE_URL` to its
+connection URL. The `Procfile` runs `flask --app wsgi db upgrade` before
+starting Gunicorn, so the database schema is applied before requests are
+served. If the Railway service has a custom Start Command, set it to:
+
+```sh
+flask --app wsgi db upgrade && gunicorn --bind 0.0.0.0:$PORT wsgi:app
+```
+
 Notes
 Environment variables must be configured before running the application.
 Ensure the PostgreSQL database is accessible from the hosting environment.
