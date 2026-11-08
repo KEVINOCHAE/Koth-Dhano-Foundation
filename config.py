@@ -1,20 +1,37 @@
+
 import os
 from dotenv import load_dotenv
-from datetime import timedelta
 
+# Load environment variables from a .env file
 basedir = os.path.abspath(os.path.dirname(__file__))
-
-# Load environment variables from .env file
 load_dotenv(os.path.join(basedir, '.env'))
 
-class Config:
 
-        # Secret key for session management and CSRF protection
-    SECRET_KEY                  = os.getenv('SECRET_KEY', 'super_secret_key')
+class Config:
+    # Secret key for session management and CSRF protection
+    SECRET_KEY = os.getenv('SECRET_KEY', 'super_secret_key')
 
     # Database configuration
-    SQLALCHEMY_DATABASE_URI     = os.getenv("DATABASE_URL", "sqlite:///kothdhano.db") #'postgresql://postgres:mKiQYNtTZhNqVSSBQmrqQonZZrmKpflq@hayabusa.proxy.rlwy.net:33665/railway'
-    SQLALCHEMY_TRACK_MODIFICATIONS = False  # Disable unnecessary overhead
+    database_url = os.getenv('DATABASE_URL') or "sqlite:///kothdhano.db"
+
+    # Explicitly select Psycopg 3 for PostgreSQL
+    if database_url.startswith("postgres://"):
+        database_url = database_url.replace(
+            "postgres://", "postgresql+psycopg://", 1
+        )
+    elif database_url.startswith("postgresql://"):
+        database_url = database_url.replace(
+            "postgresql://", "postgresql+psycopg://", 1
+        )
+
+    SQLALCHEMY_DATABASE_URI = database_url
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+    # Session configuration
+    SESSION_COOKIE_HTTPONLY = True
+    SESSION_COOKIE_SECURE = True
+    PERMANENT_SESSION_LIFETIME = 3600
+
 
 # Additional configurations (for future enhancements)
     SESSION_COOKIE_SECURE       = True
